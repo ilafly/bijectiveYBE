@@ -1,0 +1,54 @@
+Running savilerow. I found 2425 solutions
+I constructed 2425 solutions in 51533ms (= 0:00:51.533)
+gap> Read("lib.g");
+gap> uptoiso(2);
+5
+
+5
+gap> degenerate(2);
+5
+
+1
+gap> uptoiso(3);
+73
+
+29
+gap> degenerate(3);
+29
+
+3
+gap> uptoiso(4);
+2425
+
+330
+gap> degenerate(4);
+330
+
+77
+gap> Read("lib.g");
+gap> degenerate(2);
+5
+
+1
+gap> degenerate_uptoiso(2);
+5
+
+1
+gap> degenerate(3);
+73
+
+7
+gap> degenerate_uptoiso(3);
+29
+
+3
+gap> degenerate(4);
+2425
+
+625
+gap> degenerate_uptoiso(4);
+330
+
+77
+gap> Read("compute.g");
+gap> construct(2);

@@ -1,0 +1,8 @@
+Created output file for domain filtering eprime/solutions2.eprime.minion
+Created output file eprime/solutions2.eprime.minion
+Solution: language ESSENCE' 1.0 letting S be [[1, 1],  [2, 2]] letting T be [[1, 1],  [2, 2]] 
+Solution: language ESSENCE' 1.0 letting S be [[1, 2],  [1, 2]] letting T be [[1, 2],  [1, 2]] 
+Solution: language ESSENCE' 1.0 letting S be [[1, 2],  [1, 2]] letting T be [[2, 1],  [2, 1]] 
+Solution: language ESSENCE' 1.0 letting S be [[2, 1],  [2, 1]] letting T be [[1, 2],  [1, 2]] 
+Solution: language ESSENCE' 1.0 letting S be [[2, 1],  [2, 1]] letting T be [[2, 1],  [2, 1]] 
+Created information file eprime/solutions2.eprime.info

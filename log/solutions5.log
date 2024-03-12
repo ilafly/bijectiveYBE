@@ -1,0 +1,11 @@
+Error, user interrupt in
+  bytes := IO_read( f!.fd, f!.rbuf, 0, f!.rbufsize )
+ ; at /usr/local/src/gap-4.12.2/pkg/io/gap/io.gi:374 called from 
+IO_ReadLine( f ) at compute.g:40 called from
+keep_solutions( n, output ) at compute.g:86 called from
+<function "construct">( <arguments> )
+ called from read-eval loop at *stdin*:20
+you can 'return;'
+brk> quit;
+Running savilerow. 
+gap> 

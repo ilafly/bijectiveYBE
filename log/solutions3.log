@@ -1,0 +1,3 @@
+Running savilerow. I found 73 solutions
+I constructed 73 solutions in 392ms (= 0:00:00.392)
+gap> construct(4);

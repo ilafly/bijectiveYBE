@@ -1,0 +1,17 @@
+language ESSENCE' 1.0
+
+letting n be 5
+
+find S,T : matrix indexed by [int(1..n), int(1..n)] of int(1..n)
+
+such that
+
+forAll x,y,z : int(1..n) .
+  S[x,S[y,z]]=S[S[x,y],S[T[y,x],z]],
+forAll x,y,z : int(1..n) .
+  T[z,T[y,x]]=T[T[z,y],T[S[y,z],x]],
+forAll x,y,z : int(1..n) .
+  S[T[S[y,z],x],T[z,y]]=T[S[T[y,x],z],S[x,y]],
+
+true
+

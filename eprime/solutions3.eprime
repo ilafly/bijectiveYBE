@@ -1,0 +1,19 @@
+language ESSENCE' 1.0
+
+letting n be 3
+
+find S,T : matrix indexed by [int(1..n), int(1..n)] of int(1..n)
+
+such that
+
+forAll x,y,z : int(1..n) .
+  S[x,S[y,z]]=S[S[x,y],S[T[y,x],z]],
+forAll x,y,z : int(1..n) .
+  T[z,T[y,x]]=T[T[z,y],T[S[y,z],x]],
+forAll x,y,z : int(1..n) .
+  S[T[S[y,z],x],T[z,y]]=T[S[T[y,x],z],S[x,y]],
+forAll x,y : int(1..n).  exists t,u : int(1..n) .
+ S[t,u]=x /\ T[u,t]=y,
+
+true
+
