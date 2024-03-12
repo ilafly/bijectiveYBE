@@ -27,7 +27,7 @@ The repository contains database of bijective of small order $|X|\leq 4$.
 
 Given an $n$, we consider $X=\{1,\ldots, n\}$. We want to compute $\sigma$'s and $\rho$'s that define a solution. 
 
-Unsing constraing programming we compute two matrices $S=(S_{i,j})_{i,j\in X},T=(T_{i,j})_{i,j\in X}$. Each row $i$ of $S$ (resp. of $T$) represent $\sigma_i$ (resp. $\tau_i$) map. The constraints are the following.
+Unsing constraing programming we compute two matrices $S=(S_{i,j})_{i,j\in X}$ and $T=(T_{i,j})_{i,j\in X}$. Each row $i$ of $S$ (resp. of $T$) represent $\sigma_i$ (resp. $\tau_i$) map. The constraints are the following.
 1. $\forall x,y,z\in X: S[x,S[y,z]]=S[S[x,y],S[T[y,x],z]]$
 2. $\forall x,y,z\in X: T[z,T[y,x]]=T[T[z,y],T[S[y,z],x]]$ 
 3. $\forall x,y,z\in X: S[T[S[y,z],x],T[z,y]]=T[S[T[y,x],z],S[x,y]]$
