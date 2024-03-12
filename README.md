@@ -10,7 +10,7 @@ We can write $r(x,y)=(\sigma_x(y),\tau_y(x))$ for $\sigma_x,\tau_x$ maps form $X
 
 With this notation a pair $(X,r)$ is a solution if and only if 
 1. $\sigma_x\sigma_y(z)=\sigma_{\sigma_x(y)}\sigma_{\tau_y(x)}(z)$
-2. $ \tau_z\tau_y(x)=\tau_{\tau_z(y)}\tau_{\sigma_y(z)}(x)$
+2. $\tau_z\tau_y(x)=\tau_{\tau_z(y)}\tau_{\sigma_y(z)}(x)$
 3. $\sigma_{\tau_{\sigma_y(z)}(x)}\tau_z(y)=\tau_{\sigma_{\tau_y(x)}(z)}\sigma_x(y)$
 hold for all $x,y,z\in X$
 
@@ -31,7 +31,7 @@ Unsing constraing programming we compute two matrices $S=(S_{i,j})_{i,j\in X},T=
 1. $\forall x,y,z\in X: S[x,S[y,z]]=S[S[x,y],S[T[y,x],z]]$
 2. $\forall x,y,z\in X: T[z,T[y,x]]=T[T[z,y],T[S[y,z],x]]$ 
 3. $\forall x,y,z\in X: S[T[S[y,z],x],T[z,y]]=T[S[T[y,x],z],S[x,y]]$
-4. $\forall x,y\in X,\ \exists t,u\in X$ such that $ S[t,u]=x$ and $T[u,t]=y$.
+4. $\forall x,y\in X,\ \exists t,u\in X$ such that $S[t,u]=x$ and $T[u,t]=y$.
 
 ## Data 
 
