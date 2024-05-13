@@ -1,6 +1,7 @@
 # Bijective set-theoretic solutions to the Yang–Baxter equation
 
-[!IMPORTANT]  The file solutions5.g contains degenerate solutions of rank 5 with the assuption that $\lambda_1$ is not a permutation.
+[!IMPORTANT]  
+The file solutions5.g contains degenerate solutions of rank 5 with the assuption that $\lambda_1$ is not a permutation.
 
 ## Set-theoretic solutions to the Yang–Baxter equation
 
